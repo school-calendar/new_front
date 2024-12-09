@@ -1,0 +1,24 @@
+/* src/index.css */
+
+/* 전역 CSS 리셋 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* 전역 폰트 설정 */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+  font-family: 'Pretendard', sans-serif;
+}
+
+/* CSS 변수 정의 */
+:root {
+  --primary-dark: #F57C00; /* 주요 색상 */
+  --button-background: #212121; /* 버튼 배경색 */
+  --button-hover-background: #333333; /* 버튼 호버 배경색 */
+  --subtitle-color: #CACACA; /* 서브타이틀 색상 */
+  /* 추가 변수 정의 가능 */
+}
